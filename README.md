@@ -2,7 +2,12 @@
 A collection of basic shapes for @pixi/react
 
 ## Example
+
+<img src="https://github.com/user-attachments/assets/8964f371-9dcc-4bfc-b105-5cceb16fbbda" alt="drawing" width="400"/>
+
 Go to `website` directory for a working example
+
+
 
 ## Usage
 Import the shapes you want to use and pass the draw props to the shape.
