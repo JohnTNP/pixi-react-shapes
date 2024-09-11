@@ -26,8 +26,7 @@ jobs:
         run: pnpm install
         working-directory: ./website
       - name: Build site
-        run: pnpm build
-        working-directory: ./website
+        run: pnpm --prefix website build
         
   deploy:
     needs: build
