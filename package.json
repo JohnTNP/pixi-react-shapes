@@ -16,6 +16,7 @@
     "build": "tsup src/index.tsx",
     "dev": "tsup src/index.tsx --watch",
     "dev:website": "pnpm --prefix website dev",
+    "build:website": "pnpm --prefix website build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
