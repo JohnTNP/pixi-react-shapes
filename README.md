@@ -5,7 +5,8 @@ A collection of basic shapes for [@pixi/react](https://github.com/pixijs/pixi-re
 
 ## Example
 
-<img src="https://github.com/user-attachments/assets/8964f371-9dcc-4bfc-b105-5cceb16fbbda" alt="drawing" width="400"/>
+<img src="https://github.com/user-attachments/assets/12bd3deb-5c34-42c7-bd5e-153783a1dceb" alt="drawing" width="400"/>
+
 
 Go to `website` directory for a working example
 
