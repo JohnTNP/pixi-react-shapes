@@ -3,16 +3,16 @@ import { BaseShape } from "./base";
 import { PIXIGraphics } from "../types";
 
 type RectangleProps = {
-    drawRect: Parameters<PIXIGraphics['drawRect']>
+    draw: Parameters<PIXIGraphics['drawRect']>
     fill?: Parameters<PIXIGraphics['beginFill']>
 }
 
-export function Rectangle({ drawRect, fill = [0xFFFFFF] }: RectangleProps) {
-    const draw = (g: PIXIGraphics) => {
+export function Rectangle({ draw, fill = [0xFFFFFF] }: RectangleProps) {
+    const _draw = (g: PIXIGraphics) => {
         g.beginFill(...fill)
-        g.drawRect(...drawRect)
+        g.drawRect(...draw)
         g.endFill()
     }
 
-    return <BaseShape draw={draw} />
+    return <BaseShape draw={_draw} />
 }
